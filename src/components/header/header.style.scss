@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    //border: 3px dotted cyan;
+    justify-content: space-between;
+    padding: 40px 220px;
+
+.logo-container {
+    height: 100%;
+    width: 70px;
+}
+
+.options {
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   // border: 3px dotted lightcoral;
+  
+    .option {
+        display: flex;
+        align-content: center;
+    }
+}
+}
